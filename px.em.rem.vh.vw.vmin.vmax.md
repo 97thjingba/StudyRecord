@@ -21,4 +21,5 @@
 <p>vw 和 vh 中较小的那个。</p>
 <h3 id="vmax">7. vmax</h3>
 <p>vw 和vh 中较大的那个。</p>
+<p>参考：<a href="https://juejin.im/post/5b63c3f2518825210576000e">https://juejin.im/post/5b63c3f2518825210576000e</a></p>
 
