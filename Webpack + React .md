@@ -94,5 +94,22 @@ wrapper <span class="token operator">?</span> ReactDOM<span class="token punctua
 </code></pre>
 <pre class=" language-js"><code class="prism  language-js">npm start
 </code></pre>
+<p>加入css-loader 和style-loader</p>
+<pre class=" language-js"><code class="prism  language-js">yarn add css<span class="token operator">-</span>loader style<span class="token operator">-</span>loader <span class="token operator">--</span>save<span class="token operator">-</span>dev
+</code></pre>
+<pre class=" language-js"><code class="prism  language-js"><span class="token punctuation">{</span>
+
+	test<span class="token punctuation">:</span> <span class="token regex">/\.css$/</span><span class="token punctuation">,</span>
+
+	loader<span class="token punctuation">:</span>  <span class="token string">'style-loader'</span><span class="token punctuation">,</span>
+
+	<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+
+	test<span class="token punctuation">:</span> <span class="token regex">/\.css$/</span><span class="token punctuation">,</span>
+
+	loader<span class="token punctuation">:</span>  <span class="token string">'css-loader'</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
 <p>参考：<a href="https://zhuanlan.zhihu.com/p/47704649">webpack+react新手教程</a></p>
 
