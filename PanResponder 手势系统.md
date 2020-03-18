@@ -6,7 +6,7 @@
 <h3 id="panresponder">PanResponder</h3>
 <p>PanResponder 是 React Native 实现的一套手势相应方法</p>
 <h3 id="基本用法">基本用法</h3>
-<p>这是官方给的例子.但是由于componentWillMount 将在以后被移除.所以把这个东西最好放到constructor里面,但是它并没有在constructor直接调用this.setState(),而是相当于提前挂载了一个这个东西.放在了view里面去调用的</p>
+<p>这是官方给的例子.但是由于componentWillMount 将在以后被移除.所以把这个东西最好放到constructor里面,但是它并没有在constructor直接调用this.setState(),而是相当于提前挂载了一个这个东西.放在了view里面去调用的.所以这个东西最好就放在render这一环lifeCycle上</p>
 <pre class=" language-jsx"><code class="prism  language-jsx">  componentWillMount<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>_panResponder <span class="token operator">=</span> PanResponder<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
       <span class="token comment">// 要求成为响应者：</span>
