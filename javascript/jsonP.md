@@ -1,7 +1,4 @@
----
 
-
----
 
 <ul>
 <li>本质是利用了标签(link,img,script,这里使用script)具有可跨域的特性，由服务端返回预先定义好的javascript函数的调用，并且将服务端数据以该函数参数的形式传递过来</li>
@@ -25,5 +22,5 @@
 </ul>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI2NjM0NjBdfQ==
+eyJoaXN0b3J5IjpbMTk5ODcwMDcyMl19
 -->
