@@ -18,7 +18,13 @@
 6.  数据链路层(DataLink) 负责无错传输数据，确认帧、发错重传等(交换机)
 7.  物理层(Physics) 提供机械、电气、功能和过程特性(网卡、网线、双绞线、同轴电缆、中继器)
 
-  
+  ![](https://user-gold-cdn.xitu.io/2018/2/24/161c7e7691f54d5d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+
+
+> 数据从应用层发下来，会在每一层都会加上头部信息，进行封装，然后再发送到数据接收端。这个基本的流程你需要知道，就是每个数据都会经过数据的封装和解封装的过程。
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzU4NjM3N119
+eyJoaXN0b3J5IjpbLTM0ODMwNzY1MywxOTc3NTg2Mzc3XX0=
 -->
