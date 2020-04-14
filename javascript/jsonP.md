@@ -1,13 +1,12 @@
 -   本质是利用了标签(link,img,script,这里使用script)具有可跨域的特性，由服务端返回预先定义好的javascript函数的调用，并且将服务端数据以该函数参数的形式传递过来
 
-```
+```js
 <script>
     function fuc(data){
         console.log(data.name);
     }
 </script>
 <script src="http://www.baidu.com/api.php?callback=fuc"></script>
-
 ```
 
 ## jsonp优点
@@ -20,5 +19,5 @@
 -   用session来判断当前用户的登录状态，跨域时会出现问题
 -   jsonp存在安全性问题
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg0MDg4MTNdfQ==
+eyJoaXN0b3J5IjpbLTExNjAxNDA1ODRdfQ==
 -->
