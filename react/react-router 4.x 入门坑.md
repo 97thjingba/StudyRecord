@@ -72,7 +72,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 我们同时定义了多个模块，当路由切换时发现这些模块会同时渲染出来。比如像下面这样定义：
 
-```
+```js
 ReactDOM.render((
     <BrowserRouter>
         <div className="container">
@@ -89,7 +89,7 @@ ReactDOM.render((
 
 ##### （1）使用 <Router> 的 `exact`  关键字
 
-```
+```js
 ReactDOM.render((
     <BrowserRouter>
         <div className="container">
@@ -819,5 +819,5 @@ React Router 4.x 此次带来的改变是颠覆性的，对于我们使用者来
 
 参考：[https://juejin.im/entry/5b50518bf265da0f6436c34a](https://juejin.im/entry/5b50518bf265da0f6436c34a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5ODE4ODEyXX0=
+eyJoaXN0b3J5IjpbMTY1NTI4NzgzNiwyMjk4MTg4MTJdfQ==
 -->
