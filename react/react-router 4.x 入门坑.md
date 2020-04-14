@@ -104,7 +104,7 @@ ReactDOM.render((
 
 ##### （2）使用独立路由：  `<Switch>`
 
-```
+```js
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
  
 ReactDOM.render((
@@ -125,7 +125,7 @@ ReactDOM.render((
 
 首先需要了解下  `<Router>` 。它是所有路由组件共用的底层接口，在 4.x 中，你可以将各种组件及标签放进 `<Router>`  组件中。比如：
 
-```
+```js
 <Router>
     <div>
         <ul>
@@ -159,7 +159,7 @@ ReactDOM.render((
 
 当导航需要确认时执行的函数。默认使用 `window.confirm` 。
 
-```
+```js
 // 使用默认的确认函数
 const getConfirmation = (message, callback) => {
   const allowTransition = window.confirm(message)
@@ -249,7 +249,7 @@ HashRouter 是一种特定的  `<Router>`  ， HashRouter 使用 url 的  `hash`
 
 使用  `<Redirect>`  。比如当用户手动输入  `/test`  之后，我们需要跳转至首页，则代码如下所示：
 
-```
+```js
 ReactDOM.render((
     <BrowserRouter>
         <div className="container">
@@ -273,7 +273,7 @@ ReactDOM.render((
 
 重定向的 url 地址。
 
-```
+```js
 <Redirect to="/somewhere/else"/>
 ```
 
@@ -281,7 +281,7 @@ ReactDOM.render((
 
 重定向的  `location`  对象。
 
-```
+```js
 <Redirect to={{
   pathname: '/login',
   search: '?utm=your+face',
@@ -324,7 +324,7 @@ ReactDOM.render((
 
 但是，一般情况下只有主导航的链接才需要知道自己是否被激活。因此需要对主导航的  `<Link>`  进行一层包装，这样就不必记得哪些地方有  `activeClassName`  或  `activeStyle`  。所谓的对  `<Link>`  包装就是自定义  `<Link>`  组件，通过自定义实现特别的  `Style`  。在 3.x 中，具体实现方法如下：
 
-```
+```js
 // modules/NavLink.js
 import React from 'react';
 import { Link } from 'react-router';
@@ -346,7 +346,7 @@ import NavLink from './NavLink'
 
 但是，在 4.x 中我们不需要做这些包装工作，因为它直接提供了  `<NavLink>`  组件供我们使用。使用方法：
 
-```
+```js
 <NavLink
   to="/faq"
   activeClassName="selected"
@@ -361,7 +361,7 @@ import NavLink from './NavLink'
 
 导航选中时的样式名，默认样式名为  `active`。
 
-```
+```js
 <NavLink
   to="/faq"
   activeClassName="selected"
@@ -372,7 +372,7 @@ import NavLink from './NavLink'
 
 导航选中时的样式。
 
-```
+```js
 <NavLink
   to="/faq"
   activeStyle={{
@@ -386,7 +386,7 @@ import NavLink from './NavLink'
 
 若值为  `true`，当访问地址严格匹配时激活样式才会生效。
 
-```
+```js
 <NavLink
   exact
   to="/profile"
@@ -397,7 +397,7 @@ import NavLink from './NavLink'
 
 若值为  `true`，只有当访问地址后缀斜杠严格匹配（有或无）时激活样式才会生效。
 
-```
+```js
 <NavLink
   strict
   to="/events/"
@@ -408,7 +408,7 @@ import NavLink from './NavLink'
 
 用于添加页面激活时的操作逻辑。
 
-```
+```js
 const oddEvent = (match, location) => {
   if (!match) {
     return false
@@ -429,7 +429,7 @@ const oddEvent = (match, location) => {
 
 在 3.x 中，跳转页面可以使用以下方式：
 
-```
+```js
 import { browserHistory } from 'react-router';
 //第一种方法
 browserHistory.push('/some/path');
@@ -447,7 +447,7 @@ this.context.router.push('/some/path');
 
 ##### （1）使用 history 控制路由的跳转
 
-```
+```js
 this.props.history.push('/some/path');
 ```
 
@@ -475,7 +475,7 @@ this.props.history.push('/some/path');
 
 ##### （2）使用  `Context`，获得  `router`  对象
 
-```
+```js
 import React from "react";
 import PropTypes from "prop-types";
  
@@ -502,7 +502,7 @@ class MyComponent extends React.Component {
 
 问题分析：在  `React Router`  早期版本中大家可以使用滚动恢复的开箱即用功能，但是在 4.x 中路由切换时并不会恢复滚动位置，用户需要对 window 和独立组件的滚动位置进行管理。可以使用  `withRouter`  组件：  `withRouter`  可以访问历史对象的属性和最近的  `<Route>`  匹配项，当路由的属性值 {  `match`,  `location`,  `history`  } 改变时，`withRouter`  都会重新渲染。该组件可以携带组件的路由信息，避免组件之间一层层传递。使用方法如下：
 
-```
+```js
 withRouter(MyComponent)
 ```
 
@@ -512,7 +512,7 @@ withRouter(MyComponent)
 
 ##### （1）定义  `ScrollToTop`  组件，代码如下：
 
-```
+```js
 import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
 class ScrollToTop extends Component {
@@ -531,7 +531,7 @@ export default withRouter(ScrollToTop);
 
 ##### （2）在定义路由处引用该组件，例如：
 
-```
+```js
 ReactDOM.render((
     <BrowserRouter>
         <ScrollToTop>
@@ -564,7 +564,7 @@ ReactDOM.render((
 
 跳转 UserPage 页面时，可以这样写：
 
-```
+```js
 //link方法
 <Link to="/user/sam">用户</Link>
 //push方法
@@ -575,7 +575,7 @@ this.props.history.push("/user/sam");
 
 上面的方法可以传递一个或多个值，但是每个值的类型都是字符串，没法传递一个对象。如果要传的话可以将 json 对象转换为字符串，传递过去之后再将 json 字符串转换为对象。
 
-```
+```js
 let data = {id:3,name:sam,age:36};
 data = JSON.stringify(data);
 let path = '/user/${data}';
@@ -588,7 +588,7 @@ let data = JSON.parse(this.props.params.data);
 
 `query`  方式可以传递任意类型的值，但是页面的  `url`  也是由  `query`  的值拼接的，`url`  很长且是明文传输。
 
-```
+```js
 //定义路由
 <Route path='/user' component={UserPage}></Route>
  
@@ -612,7 +612,7 @@ let {id,name,age} = data;
 
 `state`  方式类似于  `post`，依然可以传递任意类型的数据，而且可以不以明文方式传输。
 
-```
+```js
 //定义路由
 <Route path='/user' component={UserPage}></Route>
  
@@ -638,7 +638,7 @@ let {id,name,age} = data;
 
 问题背景：项目中控制路由跳转使用的是  `<BrowserRouter>`，代码如下：
 
-```
+```js
 ReactDOM.render((
     <BrowserRouter>
         <div className="container">
@@ -662,7 +662,7 @@ ReactDOM.render((
 它使用 url 中的 hash（#）部分去创建路由，举例来说，用户访问  `http://www.example.com/`  ，实际会看到的是  `http://www.example.com/#/`  。  
 为什么本地开发时没有问题呢？那是因为我们的  `React`  脚手架中使用  `webpack-dev-server`  做了配置。
 
-```
+```js
 webpackConfig.devServer = {
     disableHostCheck: true,
     contentBase: path.resolve(__dirname, 'build'),
@@ -691,7 +691,7 @@ npm install --save-dev bundle-loader
 
 `<Bundle>`  组件会接受一个名为  `load`  的  `props`，  `load`  是一个组件异步加载的方法，该方法需要传入一个回调函数作为参数，然后回调函数会在方法内异步接收加载完的组件，详细代码如下：
 
-```
+```js
 import React, { Component } from 'react';
 export default class Bundle extends React.Component {
     constructor(props) {
@@ -736,7 +736,7 @@ export default class Bundle extends React.Component {
 
 使用  `bundle-loader`  为每个页面组件配置按需加载，默认打开的首页可以直接引入，不需要使用  `<Bundle>`  组件进行处理，代码如下所示：
 
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Route } from 'react-router-dom';
@@ -787,7 +787,7 @@ webpackConfig.output = {
 
 解决方法：使用  `withRouter`  封装页面组件。示例代码如下：
 
-```
+```js
 import React from 'react';
 import { withRouter } from 'react-router-dom';
  
@@ -819,5 +819,5 @@ React Router 4.x 此次带来的改变是颠覆性的，对于我们使用者来
 
 参考：[https://juejin.im/entry/5b50518bf265da0f6436c34a](https://juejin.im/entry/5b50518bf265da0f6436c34a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTI4NzgzNiwyMjk4MTg4MTJdfQ==
+eyJoaXN0b3J5IjpbMTk3MjcxODUyMCwyMjk4MTg4MTJdfQ==
 -->
