@@ -78,7 +78,7 @@ WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 
 ```javascript
  var ws = new WebSocket('ws://localhost:8080');
- ```
+```
 
 执行上面语句之后，客户端就会与服务器进行连接。
 
@@ -110,6 +110,9 @@ WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 ```javascript
 ws.send('your message');
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NzA3Mzg0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5MTY1MTExOTQsLTIwODg3NDY2MTJdfQ
+==
 -->
