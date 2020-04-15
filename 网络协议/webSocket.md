@@ -84,7 +84,16 @@ WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 
 执行上面语句之后，客户端就会与服务器进行连接。
 
-常用的实例对象
+1:常用的实例对象
+实例对象的`onopen`属性，用于指定连接成功后的回调函数。
+ ```javascript
+ ws.onopen = function () {
+   ws.send('Hello Server!');
+}
+ ```
+
+2:
+实例对象的`onclose`属性，用于指定连接关闭后的回调函数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTcxNTI4MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTg0MTEwMjAyNSwtMjA4ODc0NjYxMl19
 -->
