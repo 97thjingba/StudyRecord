@@ -111,8 +111,7 @@ WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 ws.send('your message');
 ```
 
-
+目前比较好用的是 封装好的centrifuge来进行通信
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY1MTExOTQsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTU1NDAxMjAzNiwtMjA4ODc0NjYxMl19
 -->
