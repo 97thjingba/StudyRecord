@@ -76,11 +76,9 @@ WebSocket 客户端的 API 如下。
 
 WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 
-> ```javascript
-> 
-> var ws = new WebSocket('ws://localhost:8080');
-> 
-> ```
+```javascript
+ var ws = new WebSocket('ws://localhost:8080');
+ ```
 
 执行上面语句之后，客户端就会与服务器进行连接。
 
@@ -92,8 +90,26 @@ WebSocket 对象作为一个构造函数，用于新建 WebSocket 实例。
 }
  ```
 
-2:
-实例对象的`onclose`属性，用于指定连接关闭后的回调函数
+2:实例对象的`onclose`属性，用于指定连接关闭后的回调函数
+
+3:实例对象的`onmessage`属性，用于指定收到服务器数据后的回调函数。
+
+ ```javascript
+ ws.onmessage = function(event) {
+   var data = event.data;
+   // 处理数据
+ };
+ ws.addEventListener("message", function(event) {
+   var data = event.data;
+   // 处理数据
+ });
+```
+
+4:实例对象的`send()`方法用于向服务器发送数据。
+发送文本的例子。
+```javascript
+ws.send('your message');
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTEwMjAyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODM2NzA3Mzg0LC0yMDg4NzQ2NjEyXX0=
 -->
