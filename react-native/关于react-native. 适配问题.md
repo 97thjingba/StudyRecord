@@ -16,7 +16,7 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 [![enter image description here](https://i.stack.imgur.com/LSyW5.png)](https://i.stack.imgur.com/LSyW5.png)
 
 
-参考：
+参考：[https://stackoverflow.com/questions/46126521/android-navigation-bar-height-react-native](https://stackoverflow.com/questions/46126521/android-navigation-bar-height-react-native)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzQzMjk4M119
+eyJoaXN0b3J5IjpbLTEwMjE1MzI0MThdfQ==
 -->
