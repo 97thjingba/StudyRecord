@@ -21,8 +21,9 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 |iphoneX|44|44|83(49+34)|
 对于原生的TabBar，IPhoneX在底部增加了34的所谓的安全区域.不影响HomeBar
 
-TabBar.
+TabBar
+tabBar是在App荧幕底部出现的栏，提供了在不同的版面之间进行快速切换的途径，tabbar的背景颜色是半透明，可以有调色，tabBar在所有荧幕尺寸都保持一样的高度，并且在键盘出现时会隐藏起来。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkxMDAxNTIsMTgzMDY4OTg0NiwxNz
-A4MTY3MjU4LC0xMDIxNTMyNDE4XX0=
+eyJoaXN0b3J5IjpbLTk5ODA4MDIyMCwxODMwNjg5ODQ2LDE3MD
+gxNjcyNTgsLTEwMjE1MzI0MThdfQ==
 -->
