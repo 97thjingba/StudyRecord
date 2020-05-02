@@ -10,10 +10,15 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 
 参考：[https://stackoverflow.com/questions/46126521/android-navigation-bar-height-react-native](https://stackoverflow.com/questions/46126521/android-navigation-bar-height-react-native)
 
-导航栏和状态栏
+导航栏和状态栏和tabBar
 ----------
 
-![状态栏与导航栏](https://user-gold-cdn.xitu.io/2019/4/4/169e65bb7831f958?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![状态栏与导航栏](https://user-gold-cdn.xitu.io/2019/4/4/169e65bb7831f958?imageView2/0/w/1280/h/960/format/webp/ignore-error/1) 
+一般情况下.
+| iphone型号 |  |
+|飞|--|
+|  |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTMxOTI1LC0xMDIxNTMyNDE4XX0=
+eyJoaXN0b3J5IjpbMTQ0NjEwMTExLC0xMDIxNTMyNDE4XX0=
 -->
