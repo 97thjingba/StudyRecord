@@ -11,7 +11,9 @@
 		data.section.key 指的就是上面数据的key
 		所以需要多多注意点
 		
-FlatList里面的style不能加入justifyContent这个属性.而可以单独的在
+FlatList里面的style不能加入justifyContent这个属性.
+而可以单独的在contentContainerStyle这个属性里加入对flatList控制的样式
+比如想要进行flexWrap 操作等等.都需要放入这个字段里面去
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjY2Mjc3MF19
+eyJoaXN0b3J5IjpbLTEwOTY0NzAyOTddfQ==
 -->
