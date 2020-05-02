@@ -21,8 +21,8 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 |iphoneX|44|44|83(49+34)|
 对于原生的TabBar，IPhoneX在底部增加了34的所谓的安全区域.不影响HomeBar
 
-
+TabBar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDY4OTg0NiwxNzA4MTY3MjU4LC0xMD
-IxNTMyNDE4XX0=
+eyJoaXN0b3J5IjpbLTE3ODkxMDAxNTIsMTgzMDY4OTg0NiwxNz
+A4MTY3MjU4LC0xMDIxNTMyNDE4XX0=
 -->
