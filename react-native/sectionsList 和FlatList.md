@@ -10,7 +10,8 @@
 		而使用renderSectionHeader获取的key值就是
 		data.section.key 指的就是上面数据的key
 		所以需要多多注意点
-FlatList
+		
+FlatList里面的style不能加入justifyContent这个属性.而可以单独的在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjgxODQ2Ml19
+eyJoaXN0b3J5IjpbMTkxMjY2Mjc3MF19
 -->
