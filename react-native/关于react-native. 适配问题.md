@@ -17,9 +17,9 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 一般情况下.
 | iphone型号 | 状态栏 | 导航栏|tabBar
 |--|--|--|--|
-|非iphoneX|20|44||
-|iphoneX|44|||
-
+|非iphoneX|20|44|49|
+|iphoneX|44|44|83(49+34)|
+对于原生的TabBar，IPhoneX在底部增加了34的所谓的安全区域.不影响HomeBar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjE0OTI1MCwtMTAyMTUzMjQxOF19
+eyJoaXN0b3J5IjpbMTcwODE2NzI1OCwtMTAyMTUzMjQxOF19
 -->
