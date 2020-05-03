@@ -10,8 +10,12 @@ createStackNavigator  from  react-navigation-stack
 createBottomTabNavigator  from react-navigation-tabs
 ```
 
-swit
+Switch 一次只渲染一个页面.如其名
+stackNavigator是最重要的一个创建路由的一个东西
+BottomTabNavigator一般是底部的tab导航栏需要的东西
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkxNzI5OTQsLTEzOTk0MzA0NzVdfQ
-==
+eyJoaXN0b3J5IjpbNzg2NTEzMjI4LC0xMzk5NDMwNDc1XX0=
 -->
