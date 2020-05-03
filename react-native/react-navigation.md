@@ -15,7 +15,9 @@ stackNavigator是最重要的一个创建路由的一个东西
 BottomTabNavigator一般是底部的tab导航栏需要的东西
 
 
-
+这里需要注意一点的是.需要把写好的路由给注册成一个组件.这样才能在
+render
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2NTEzMjI4LC0xMzk5NDMwNDc1XX0=
+eyJoaXN0b3J5IjpbLTE0NTk5NDQ3MDcsLTEzOTk0MzA0NzVdfQ
+==
 -->
