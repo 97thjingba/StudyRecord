@@ -8,6 +8,7 @@ react-navigation-tabs
 createSwitchNavigator  from react-navigation
 createStackNavigator  from  react-navigation-stack
 createBottomTabNavigator  from react-navigation-tabs
+createAppContainer from react-navigation
 ```
 
 Switch 一次只渲染一个页面.如其名
@@ -16,8 +17,7 @@ BottomTabNavigator一般是底部的tab导航栏需要的东西
 
 
 这里需要注意一点的是.需要把写好的路由给注册成一个组件.这样才能在
-render
+render里面进行渲染
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk5NDQ3MDcsLTEzOTk0MzA0NzVdfQ
-==
+eyJoaXN0b3J5IjpbMTQ1NzYzMDkwNywtMTM5OTQzMDQ3NV19
 -->
