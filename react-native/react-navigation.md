@@ -2,6 +2,9 @@
 react-navigation
 react-navigation-stack
 react-navigation-tabs
+
+快速建成一个项目需要这些：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzA5Mjg2N119
+eyJoaXN0b3J5IjpbLTEzOTk0MzA0NzVdfQ==
 -->
