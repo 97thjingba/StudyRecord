@@ -18,6 +18,10 @@ BottomTabNavigator一般是底部的tab导航栏需要的东西
 
 这里需要注意一点的是.需要把写好的路由给注册成一个组件.这样才能在
 render里面进行渲染
+```js
+const router = createAppContainer(typeOfNavigator)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzYzMDkwNywtMTM5OTQzMDQ3NV19
+eyJoaXN0b3J5IjpbNzY2Njc1NTQyLC0xMzk5NDMwNDc1XX0=
 -->
