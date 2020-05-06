@@ -1,4 +1,4 @@
-关于navigation里面传递回调函数
+1:关于navigation里面传递回调函数
 例子：
 ```js
 _onPressDropDown = () => {
@@ -20,6 +20,7 @@ _onPress = (code) => {
 ```
 这是第二个页面触发的函数,首先需要获取到goback,以及state.
 goBack是直接返回上一页.state.params里就有我们之前从第一个页面传递过来的回调函数.当被触发时,把code的值传递回第一个页面然后在第一个页面进行相关操作.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc4OTExNThdfQ==
+eyJoaXN0b3J5IjpbMTk2MDI2MDk0MywtMTA3Nzg5MTE1OF19
 -->
