@@ -64,8 +64,8 @@ navigation.navigate('Home',  { post: postText });
 );
 }
 ```
-
+参数可以直接在几个页面之间来回传递.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEwNDE1NzIsLTEwNzc4OTExNThdfQ
+eyJoaXN0b3J5IjpbLTIwOTI2ODU5NzIsLTEwNzc4OTExNThdfQ
 ==
 -->
