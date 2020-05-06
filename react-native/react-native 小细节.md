@@ -14,7 +14,11 @@ render(){
 
 ---
 2: 
-TouchableOpacity，# TouchableWithoutFeedback，
+TouchableOpacity，TouchableWithoutFeedback，TouchableHighlight
+除了第一个不需要子组件以外。另外的两个都需要一个子组件放在里面
+
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjk0ODQzNiwxNjExNDUzMTQyXX0=
+eyJoaXN0b3J5IjpbMTM0ODk1OTI1OCwxNjExNDUzMTQyXX0=
 -->
