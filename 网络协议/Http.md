@@ -162,12 +162,14 @@ HTTP 常用的请求方法：
 -   500 Internal Server Error：服务器发生不可预期的错误
 -   503 Server Unavailable：请求未完成，服务器临时过载或当机，一段时间后可能恢复正常
 
-## **cookeie 和 session**
+## **HTTP cookeie 和 session**
 -   [简书 - 全面解读 HTTP Cookie](http://www.jianshu.com/p/1e28fe8125dc)
 -   [阮一峰 - JavaScript 标准参考教程 - Cookie](http://javascript.ruanyifeng.com/bom/cookie.html#toc1)
 -   [segmentfault - 聊一聊 Cookie](https://segmentfault.com/a/1190000004556040)
 -   [知乎 - COOKIE和SESSION有什么区别？](https://www.zhihu.com/question/19786827)
 
+## **HTTP Cache(缓存)**
+- [HTTP缓存看着一篇就可以了](https://github.com/ljianshu/Blog/issues/23)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODU5MjA0Nl19
+eyJoaXN0b3J5IjpbLTE5MDIwMjk0NDYsMTE0ODU5MjA0Nl19
 -->
