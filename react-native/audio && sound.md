@@ -37,154 +37,66 @@ this.roomId = undefined;
 	console.log('currentMetering', data.currentMetering, data.currentPeakMetering);
 	};
 
-  
-
-AudioRecorder.onFinished = async (data) => {
-
-try {
-
-await  this._finishRecording(data.status === 'OK', data.audioFileURL, data.audioFileSize, data.base64);
-
-} catch (error) {
-
-console.log(error);
-
+	AudioRecorder.onFinished = async (data) => {
+	try {
+	await  this._finishRecording(data.status === 'OK', data.audioFileURL, data.audioFileSize, data.base64);
+	} catch (error) {
+	console.log(error);
+	}
+	};
 }
-
-};
-
-}
-
-  
 
 async  checkPermission() {
-
 const  isAuthorised = await  AudioRecorder.requestAuthorization();
-
 this.hasPermission = isAuthorised;
-
 return  isAuthorised;
-
 }
-
-  
 
 prepareRecordingPath = (audioPath) => {
-
 AudioRecorder.prepareRecordingAtPath(audioPath, {
-
 SampleRate:  22050,
-
 Channels:  1,
-
 AudioQuality:  'Low',
-
 AudioEncoding:  'aac',
-
 AudioEncodingBitRate:  32000,
-
 IncludeBase64:  true,
-
 MeteringEnabled:  true,
-
 });
-
 };
 
-  
-
 async  record() {
-
-if (this.recording) {
-
-return;
-
-}
-
-if (!this.hasPermission) {
-
-return;
-
-}
-
-this.prepareRecordingPath(this.audioPath);
-
-this.isSend = false;
-
-this.recording = true;
-
-this.paused = false;
-
-await  AudioRecorder.startRecording();
-
+	if (this.recording) {
+	return;
+	}
+	if (!this.hasPermission) {
+	return;
+	}
+	this.prepareRecordingPath(this.audioPath);
+	this.isSend = false;
+	this.recording = true;
+	this.paused = false;
+	await  AudioRecorder.startRecording();
 }
 
   
 
 async  stop() {
-
-if (!this.recording) {
-
-return;
-
+	if (!this.recording) {
+	return;
+	}
+	this.recording = false;
+	this.paused = false;
+	await  AudioRecorder.stopRecording();
 }
-
-this.recording = false;
-
-this.paused = false;
-
-await  AudioRecorder.stopRecording();
-
-}
-
-  
-
-sendAudio(roomId: string, fileData: string) {
-
-const  body = {
-
-codec:  'aac',
-
-content:  fileData,
-
-from_user_nickname:  UserModel.sharedInstance().getNickname(),
-
-duration:  this.currentTime,
-
-};
-
-const  config = {
-
-path:  `/${ApiConfig.v1}/room_message/${roomId}/audio`,
-
-headers:  ApiHeaderFactory.headersWithAuthorization(),
-
-body,
-
-};
-
-return  this.post(config);
-
-}
-
-  
 
 async  playAudio(fileData: string) {
-
 try {
-
 const  path = await  this._convertBase64ToFile(fileData);
-
 // 第二个参数不能填写, 填写之后无法读取
-
 const  sound = new  Sound(path, '', (error) => {
-
 if (error) {
-
 console.log(error);
-
 return;
-
 }
 
   
@@ -258,5 +170,5 @@ Alert.alert(error.message);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTg2NzAzMywtMjAyOTc4MDA0Ml19
+eyJoaXN0b3J5IjpbOTczNjYxMDk5LC0yMDI5NzgwMDQyXX0=
 -->
