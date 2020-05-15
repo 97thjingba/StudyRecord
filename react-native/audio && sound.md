@@ -4,7 +4,7 @@
 
 [https://github.com/zmxv/react-native-sound](https://github.com/zmxv/react-native-sound)
 
-一个已经feng zhuan
+一个已经封装好的 录制，停止，发送的 model 类
 
 ```js
 import { Alert } from  'react-native';
@@ -132,5 +132,5 @@ async  _finishRecording(didSucceed, filePath, fileSize, fileData) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODYxNzU1OCwtMjAyOTc4MDA0Ml19
+eyJoaXN0b3J5IjpbMTY1Mjg5NTczOCwtMjAyOTc4MDA0Ml19
 -->
