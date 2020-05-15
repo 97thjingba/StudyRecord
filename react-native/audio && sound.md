@@ -4,7 +4,7 @@
 
 [https://github.com/zmxv/react-native-sound](https://github.com/zmxv/react-native-sound)
 
-一个小model
+一个已经feng zhuan
 
 ```js
 import { Alert } from  'react-native';
@@ -91,84 +91,46 @@ async  stop() {
 
 async  playAudio(fileData: string) {
 try {
-const  path = await  this._convertBase64ToFile(fileData);
-// 第二个参数不能填写, 填写之后无法读取
-const  sound = new  Sound(path, '', (error) => {
-if (error) {
-console.log(error);
-return;
-}
-
-  
-
-sound.play((success) => {
-
-if (success) {
-
-console.log('play sound success');
-
-} else {
-
-console.log('play sound failed!!!');
-
-}
-
-});
-
-});
-
-} catch (error) {
-
-console.log(error);
-
-}
-
+	const  path = await  this._convertBase64ToFile(fileData);
+	// 第二个参数不能填写, 填写之后无法读取
+	const  sound = new  Sound(path, '', (error) => {
+	if (error) {
+	console.log(error);
+	return;
+	}
+	sound.play((success) => {
+	if (success) {
+	console.log('play sound success');
+	} else {
+	console.log('play sound failed!!!');
+	}
+	});
+	});
+	} catch (error) {
+	console.log(error);
+	}
 }
 
   
 
 _convertBase64ToFile = async (fileData: string) => {
-
-const  path = `${RNFS.DocumentDirectoryPath}/${new  Date().valueOf()}_texas_hold_em`;
-
-await  RNFS.writeFile(path, fileData, 'base64');
-
-return  path;
-
+	const  path = `
+	${RNFS.DocumentDirectoryPath}/${new	Date().valueOf()}_texas_hold_em`;
+	await  RNFS.writeFile(path, fileData, 'base64');
+	return  path;
 };
 
-  
-
 async  _finishRecording(didSucceed, filePath, fileSize, fileData) {
-
-this.didSucceed = didSucceed;
-
-if (didSucceed && this.isSend) {
-
-try {
-
-await  this.sendAudio(this.roomId, fileData);
-
-} catch (error) {
-
-if (error.type === 'user_is_banned') {
-
-this.playAudio(fileData);
-
-} else {
-
-Alert.alert(error.message);
-
+	this.didSucceed = didSucceed;
+	this.playAudio(fileData);
+}
 }
 
 }
 
 }
 
-}
-
-}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNjYxMDk5LC0yMDI5NzgwMDQyXX0=
+eyJoaXN0b3J5IjpbMTY0ODYxNzU1OCwtMjAyOTc4MDA0Ml19
 -->
