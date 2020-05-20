@@ -175,11 +175,11 @@ HTTP 常用的请求方法：
 [HTTP/2](http://www.ruanyifeng.com/blog/2016/08/http.html)
 
 - 二进制协议
-- 多工
-- 数据流
-- 
+- 多工（不用排序,双向实时的）
+- 数据流（每一个请求或回应的是数据包称作一个数据流）
+- 头信息压缩（gzip和compress）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAwOTgwNTcsLTE5MDIwMjk0NDYsMT
+eyJoaXN0b3J5IjpbLTE2MzgyNzIzODQsLTE5MDIwMjk0NDYsMT
 E0ODU5MjA0Nl19
 -->
