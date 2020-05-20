@@ -170,6 +170,16 @@ HTTP 常用的请求方法：
 
 ## **HTTP Cache(缓存)**
 - [HTTP缓存看着一篇就可以了](https://github.com/ljianshu/Blog/issues/23)
+
+## HTTP/2
+[HTTP/2](http://www.ruanyifeng.com/blog/2016/08/http.html)
+
+- 二进制协议
+- 多工
+- 数据流
+- 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIwMjk0NDYsMTE0ODU5MjA0Nl19
+eyJoaXN0b3J5IjpbLTExODAwOTgwNTcsLTE5MDIwMjk0NDYsMT
+E0ODU5MjA0Nl19
 -->
