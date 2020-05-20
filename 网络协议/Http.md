@@ -174,12 +174,13 @@ HTTP 常用的请求方法：
 ## HTTP/2
 [HTTP/2](http://www.ruanyifeng.com/blog/2016/08/http.html)
 
-- 二进制协议
-- 多工（不用排序,双向实时的）
+- 二进制协议（头信息和数据体都是二进制）
+- 多工（不用排序,双向实时的通道）
 - 数据流（每一个请求或回应的是数据包称作一个数据流）
 - 头信息压缩（gzip和compress）
+- 服务器推送（服务器可以不经过允许，主动向客户端发送资源）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgyNzIzODQsLTE5MDIwMjk0NDYsMT
-E0ODU5MjA0Nl19
+eyJoaXN0b3J5IjpbLTMyODk0NjMzNSwtMTkwMjAyOTQ0NiwxMT
+Q4NTkyMDQ2XX0=
 -->
