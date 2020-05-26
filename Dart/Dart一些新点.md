@@ -42,11 +42,9 @@ final 相当于 js 里面的 const
 
 
 ```dart
-
-
-
+b??=23 表示如果b为空的话，把23赋值给b
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODAzNjgyMSwzMjg1MzcwMjIsMTYyNj
-QzNjM2Nl19
+eyJoaXN0b3J5IjpbLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLDE2Mj
+Y0MzYzNjZdfQ==
 -->
