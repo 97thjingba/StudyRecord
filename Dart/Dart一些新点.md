@@ -38,9 +38,15 @@ final 相当于 js 里面的 const
  if(str is String){
  print('is string');
  }
- 
+```
+
+
+```dart
+
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ==
+eyJoaXN0b3J5IjpbLTQ3ODAzNjgyMSwzMjg1MzcwMjIsMTYyNj
+QzNjM2Nl19
 -->
