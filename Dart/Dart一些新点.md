@@ -23,8 +23,14 @@ final 相当于 js 里面的 const
 ```
 
 ```dart
-
+ var c = {
+	"E":2,
+	"dd": "se"
+}
+ print(c["E"]);
+ result:
+ 2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbLTE2Njc5Mzk1MzAsMTYyNjQzNjM2Nl19
 -->
