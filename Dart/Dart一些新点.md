@@ -31,6 +31,16 @@ final 相当于 js 里面的 const
  result:
  2
 ```
+
+```dart
+	使用is来判断数据的类型
+ var str = '1111';
+ if(str is String){
+ print('is string');
+ }
+ 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc5Mzk1MzAsMTYyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ==
 -->
