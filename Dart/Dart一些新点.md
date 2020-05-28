@@ -68,12 +68,14 @@ class Person{
 }
 ```
 
+类里面的静态属性和静态方法设置了以后.可以直接通过类来访问，而不用去进行实例化.如果没有设置static的话,就需要进行对类先进行实例话 再来进行访问类里面的方法和属性
+---
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NDEyMzMxLC03MDY1MTE5MDMsOTc5Mz
-k5MjM5LDE5NTU1MTg1ODUsLTUxODU5NTA4MywtMTcwMTk3OTYw
-NSwzMjg1MzcwMjIsMTYyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbMTUzODczNDI5MywtNzA2NTExOTAzLDk3OT
+M5OTIzOSwxOTU1NTE4NTg1LC01MTg1OTUwODMsLTE3MDE5Nzk2
+MDUsMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ==
 -->
