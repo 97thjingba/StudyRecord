@@ -88,6 +88,8 @@ p1..name="李四"
 调用父类的属性的时候.直接使用this关键字来调用
 ```
 
+```dart
+
 ```
 
 
@@ -95,8 +97,8 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTA4MzI1NCwtMTg1NjgyMDIyMCwxMT
-c3OTQ3OTUzLC03MDY1MTE5MDMsOTc5Mzk5MjM5LDE5NTU1MTg1
-ODUsLTUxODU5NTA4MywtMTcwMTk3OTYwNSwzMjg1MzcwMjIsMT
-YyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbLTEyNzU3NjE2MTksLTE4NTY4MjAyMjAsMT
+E3Nzk0Nzk1MywtNzA2NTExOTAzLDk3OTM5OTIzOSwxOTU1NTE4
+NTg1LC01MTg1OTUwODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLD
+E2MjY0MzYzNjZdfQ==
 -->
