@@ -45,12 +45,15 @@ final 相当于 js 里面的 const
 b??=23 表示如果b为空的话，把23赋值给b
 ```
 
-
-
+```dart
+list.forEach((value){
+	print(value); // 表示对list进行循环打印
+})
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTY4MDcwNSwtNTE4NTk1MDgzLC0xNz
+eyJoaXN0b3J5IjpbMTk1NTUxODU4NSwtNTE4NTk1MDgzLC0xNz
 AxOTc5NjA1LDMyODUzNzAyMiwxNjI2NDM2MzY2XX0=
 -->
