@@ -66,13 +66,14 @@ class Person{
 		// 当被实例化以后就会触发这个函数
 	}
 }
-
 ```
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjUxMTkwMyw5NzkzOTkyMzksMTk1NT
-UxODU4NSwtNTE4NTk1MDgzLC0xNzAxOTc5NjA1LDMyODUzNzAy
-MiwxNjI2NDM2MzY2XX0=
+eyJoaXN0b3J5IjpbNzQ5NDEyMzMxLC03MDY1MTE5MDMsOTc5Mz
+k5MjM5LDE5NTU1MTg1ODUsLTUxODU5NTA4MywtMTcwMTk3OTYw
+NSwzMjg1MzcwMjIsMTYyNjQzNjM2Nl19
 -->
