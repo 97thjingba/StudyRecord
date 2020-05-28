@@ -72,14 +72,25 @@ class Person{
 ---
 
 
-```da
+```dart
+// 联缀操作
+Person p1 = Person('张三',20)
+p1.printInfo()
+
+p1..name="李四"
+  ..age=22
+  ..printInfo();
+ // 表示修改p1对象里面的name和age然后执行p r
+
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTM5NzY0MiwxMTc3OTQ3OTUzLC03MD
-Y1MTE5MDMsOTc5Mzk5MjM5LDE5NTU1MTg1ODUsLTUxODU5NTA4
-MywtMTcwMTk3OTYwNSwzMjg1MzcwMjIsMTYyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbLTExOTE0Mzk3NTIsMTE3Nzk0Nzk1MywtNz
+A2NTExOTAzLDk3OTM5OTIzOSwxOTU1NTE4NTg1LC01MTg1OTUw
+ODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ
+==
 -->
