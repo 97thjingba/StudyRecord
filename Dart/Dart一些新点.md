@@ -59,12 +59,20 @@ list.forEach((value){
 })(12) <- 表示传入的参数
 ```
 
-`
+```dart
+class Person{
+	Person(){
+		// 默认构造函数,相当于react 里的生命周期里的constructor.
+		// 当被实例化以后就会触发这个函数
+	}
+}
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjA0OTk3LDk3OTM5OTIzOSwxOTU1NT
-E4NTg1LC01MTg1OTUwODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIy
-LDE2MjY0MzYzNjZdfQ==
+eyJoaXN0b3J5IjpbLTcwNjUxMTkwMyw5NzkzOTkyMzksMTk1NT
+UxODU4NSwtNTE4NTk1MDgzLC0xNzAxOTc5NjA1LDMyODUzNzAy
+MiwxNjI2NDM2MzY2XX0=
 -->
