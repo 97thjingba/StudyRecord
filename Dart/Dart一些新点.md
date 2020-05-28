@@ -80,7 +80,7 @@ p1.printInfo()
 p1..name="李四"
   ..age=22
   ..printInfo();
- // 表示修改p1对象里面的name和age然后执行p r
+ // 表示修改p1对象里面的name和age然后执行printInfo函数
 
 ```
 
@@ -89,7 +89,7 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTE0Mzk3NTIsMTE3Nzk0Nzk1MywtNz
+eyJoaXN0b3J5IjpbLTE4NTY4MjAyMjAsMTE3Nzk0Nzk1MywtNz
 A2NTExOTAzLDk3OTM5OTIzOSwxOTU1NTE4NTg1LC01MTg1OTUw
 ODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ
 ==
