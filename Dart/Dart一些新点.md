@@ -59,10 +59,12 @@ list.forEach((value){
 })(12) <- 表示传入的参数
 ```
 
+`
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5Mzk5MjM5LDE5NTU1MTg1ODUsLTUxOD
-U5NTA4MywtMTcwMTk3OTYwNSwzMjg1MzcwMjIsMTYyNjQzNjM2
-Nl19
+eyJoaXN0b3J5IjpbMTY1NjA0OTk3LDk3OTM5OTIzOSwxOTU1NT
+E4NTg1LC01MTg1OTUwODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIy
+LDE2MjY0MzYzNjZdfQ==
 -->
