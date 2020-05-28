@@ -51,11 +51,18 @@ list.forEach((value){
 })
 ```
 
+```dart
+// 自执行方法
+((int n){
+	print(n)
+	print('我是自执行方法')
+})(12) <- 表示传入的参数
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNzAyNDcsMTk1NTUxODU4NSwtNTE4NT
-k1MDgzLC0xNzAxOTc5NjA1LDMyODUzNzAyMiwxNjI2NDM2MzY2
-XX0=
+eyJoaXN0b3J5IjpbOTc5Mzk5MjM5LDE5NTU1MTg1ODUsLTUxOD
+U5NTA4MywtMTcwMTk3OTYwNSwzMjg1MzcwMjIsMTYyNjQzNjM2
+Nl19
 -->
