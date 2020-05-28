@@ -81,6 +81,10 @@ p1..name="李四"
   ..age=22
   ..printInfo();
  // 表示修改p1对象里面的name和age然后执行printInfo函数
+```
+
+```dart
+
 
 ```
 
@@ -89,8 +93,8 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY4MjAyMjAsMTE3Nzk0Nzk1MywtNz
-A2NTExOTAzLDk3OTM5OTIzOSwxOTU1NTE4NTg1LC01MTg1OTUw
-ODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLDE2MjY0MzYzNjZdfQ
-==
+eyJoaXN0b3J5IjpbNTA2NjcxNDkxLC0xODU2ODIwMjIwLDExNz
+c5NDc5NTMsLTcwNjUxMTkwMyw5NzkzOTkyMzksMTk1NTUxODU4
+NSwtNTE4NTk1MDgzLC0xNzAxOTc5NjA1LDMyODUzNzAyMiwxNj
+I2NDM2MzY2XX0=
 -->
