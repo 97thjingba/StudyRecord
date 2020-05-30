@@ -87,7 +87,6 @@ p1..name="李四"
 子类调用父类的方法的时候.使用super关键字调用
 调用父类的属性的时候.直接使用this关键字来调用
 ```
-
 ```dart
 
 ```
@@ -97,8 +96,8 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU3NjE2MTksLTE4NTY4MjAyMjAsMT
-E3Nzk0Nzk1MywtNzA2NTExOTAzLDk3OTM5OTIzOSwxOTU1NTE4
-NTg1LC01MTg1OTUwODMsLTE3MDE5Nzk2MDUsMzI4NTM3MDIyLD
-E2MjY0MzYzNjZdfQ==
+eyJoaXN0b3J5IjpbMTExODEyNTQzOSwtMTI3NTc2MTYxOSwtMT
+g1NjgyMDIyMCwxMTc3OTQ3OTUzLC03MDY1MTE5MDMsOTc5Mzk5
+MjM5LDE5NTU1MTg1ODUsLTUxODU5NTA4MywtMTcwMTk3OTYwNS
+wzMjg1MzcwMjIsMTYyNjQzNjM2Nl19
 -->
