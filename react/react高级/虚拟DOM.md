@@ -8,7 +8,7 @@
 
 其实并不是查询 dom 树性能开销大而是 dom 树的实现模块和 js 模块是分开的这些跨模块的通讯增加了成本，以及 dom 操作引起的浏览器的回流和重绘，使得性能开销巨大，原本在 pc 端是没有性能问题的，因为 pc 的计算能力强，但是随着移动端的发展，越来越多的网页在智能手机上运行，而手机的性能参差不齐，会有性能问题。
 
- 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTc4NzU5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQ5NjUxMDQzNywtMjA4ODc0NjYxMl19
 -->
