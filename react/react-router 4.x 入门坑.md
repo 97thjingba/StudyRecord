@@ -6,7 +6,7 @@
 
 在之前的 3.x 中，在入口文件中定义路由时，我们会这么写：
 
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory} from 'react-router';
@@ -30,7 +30,7 @@ ReactDOM.render((
 
 解决方法：
 
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -62,7 +62,7 @@ ReactDOM.render((
 
 使用方法：
 
-```
+```js
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 ```
 
@@ -819,5 +819,6 @@ React Router 4.x 此次带来的改变是颠覆性的，对于我们使用者来
 
 参考：[https://juejin.im/entry/5b50518bf265da0f6436c34a](https://juejin.im/entry/5b50518bf265da0f6436c34a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjcxODUyMCwyMjk4MTg4MTJdfQ==
+eyJoaXN0b3J5IjpbNjkzNzgwMzM1LDE5NzI3MTg1MjAsMjI5OD
+E4ODEyXX0=
 -->
