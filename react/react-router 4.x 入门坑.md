@@ -150,7 +150,7 @@ ReactDOM.render((
 
 当前位置的基准  `url`  。如果你的页面部署在服务器的二级（子）目录，你需要将 `basename`  设置到此子目录。 正确的  `url`  格式是前面有一个前导斜杠，但不能有尾部斜杠。
 
-```
+```js
 <BrowserRouter basename="/calendar"/>
 <Link to="/today"/> // 渲染为 <a href="/calendar/today">
 ```
@@ -172,7 +172,7 @@ const getConfirmation = (message, callback) => {
 
 当设置为  `true`  时，在导航的过程中整个页面将会刷新。 只有当浏览器不支持 HTML5 的 history API 时，才设置为  `true`  。
 
-```
+```js
 const supportsHistory = 'pushState' in window.history
 <BrowserRouter forceRefresh={!supportsHistory}/>
 ```
@@ -203,7 +203,7 @@ HashRouter 是一种特定的  `<Router>`  ， HashRouter 使用 url 的  `hash`
 
 可以被  `path-to-regexp`  解析的有效 url 路径。如果没有  `path`，路由将总是被匹配。
 
-```
+```js
 <Route path="/users/:id" component={User}/>
 ```
 
@@ -819,6 +819,6 @@ React Router 4.x 此次带来的改变是颠覆性的，对于我们使用者来
 
 参考：[https://juejin.im/entry/5b50518bf265da0f6436c34a](https://juejin.im/entry/5b50518bf265da0f6436c34a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNzgwMzM1LDE5NzI3MTg1MjAsMjI5OD
-E4ODEyXX0=
+eyJoaXN0b3J5IjpbLTE4ODgyMDIwMCwxOTcyNzE4NTIwLDIyOT
+gxODgxMl19
 -->
