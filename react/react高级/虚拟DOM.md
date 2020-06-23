@@ -43,10 +43,14 @@ const after = h('div', {}, 'after text')
 const patches = diff(before, after)
 ```
 
-## 
+##  二叉树的深度优先遍历（DFS）和广度优先遍历（BFS）
+
+深度优先遍历：从根节点出发，沿着左子树方向进行纵向遍历，直到找到叶子节点为止。然后回溯到前一个节点，进行右子树节点的遍历，直到遍历完所有可达节点为止。
+
+广度优先遍历：从根节点出发，在横向遍历二叉树层段节点的基础上纵向遍历二叉树的层次。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTMxMTgxMSwtNDk2NTEwNDM3LC0yMD
+eyJoaXN0b3J5IjpbLTk0NTk0MjEyNCwtNDk2NTEwNDM3LC0yMD
 g4NzQ2NjEyXX0=
 -->
