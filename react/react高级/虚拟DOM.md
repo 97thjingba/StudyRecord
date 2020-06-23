@@ -4,6 +4,31 @@
 
 这种方式相当消耗计算资源，因为每次查询 dom 几乎都需要遍历整颗 dom 树，如果建立一个与 dom 树对应的虚拟 dom 对象（ js 对象），以对象嵌套的方式来表示 dom 树，那么每次 dom 的更改就变成了 js 对象的属性的更改，这样一来就能查找 js 对象的属性变化要比查询 dom 树的性能开销小。
 Dom 就是一个普通的JavaScript对象，包含了tag，props，children 三个属性
+```html
+<div id="app">  
+	<p class="text">hello world!!!</p>  
+</div>
+```
+上面的HTML转换为虚拟DOM：
+```js
+{
+  tag: 'div',
+  props: {
+    id: 'app'
+  },
+  chidren: [
+    {
+      tag: 'p',
+      props: {
+        className: 'text'
+      },
+      chidren: [
+        'hello world!!!'
+      ]
+    }
+  ]
+}
+```
 
 ## 为什么操作 dom 性能开销大
 
@@ -11,6 +36,6 @@ Dom 就是一个普通的JavaScript对象，包含了tag，props，children 三�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYxNTQ1NTAsLTQ5NjUxMDQzNywtMj
+eyJoaXN0b3J5IjpbLTE4NDE4MzkxMDgsLTQ5NjUxMDQzNywtMj
 A4ODc0NjYxMl19
 -->
