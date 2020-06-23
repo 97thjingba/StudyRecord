@@ -43,8 +43,10 @@ const after = h('div', {}, 'after text')
 const patches = diff(before, after)
 ```
 
+## 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjQxMDAyOSwtNDk2NTEwNDM3LC0yMD
+eyJoaXN0b3J5IjpbLTQwMTMxMTgxMSwtNDk2NTEwNDM3LC0yMD
 g4NzQ2NjEyXX0=
 -->
