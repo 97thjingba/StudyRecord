@@ -34,8 +34,17 @@ Dom 就是一个普通的JavaScript对象，包含了tag，props，children 三�
 
 其实并不是查询 dom 树性能开销大而是 dom 树的实现模块和 js 模块是分开的这些跨模块的通讯增加了成本，以及 dom 操作引起的浏览器的回流和重绘，使得性能开销巨大，原本在 pc 端是没有性能问题的，因为 pc 的计算能力强，但是随着移动端的发展，越来越多的网页在智能手机上运行，而手机的性能参差不齐，会有性能问题。虚拟 DOM 最大的优势在于抽象了原本的渲染过程，实现了跨平台的能力，而不仅仅局限于浏览器的 DOM，可以是Android和 IOS 的原生组件，可以是近期很火热的小程序，也可以是各种GUI。
 
+##  diff 算法
+diff 算法，顾名思义，就是比对新老 VDOM 的变化，然后将变化的部分更新到视图上。对应到代码上，就是一个 diff 函数，返回一个 patches（补丁)
+
+```js
+const before = h('div', {}, 'before text') 
+const after = h('div', {}, 'after text') 
+const patches = diff(before, after)
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE4MzkxMDgsLTQ5NjUxMDQzNywtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQyNjQxMDAyOSwtNDk2NTEwNDM3LC0yMD
+g4NzQ2NjEyXX0=
 -->
