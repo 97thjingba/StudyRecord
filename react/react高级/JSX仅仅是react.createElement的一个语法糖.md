@@ -88,6 +88,42 @@ const title = (
 ReactDOM.render(title, document.getElementById('root'));
 ```
 
+#### 3.1 代码逐行解读：
+
+**第1行：** `import React from 'react';`
+
+有 JSX 的地方，在文件开头就需要引入 React，因为实际上 JSX 是使用了 `React.createElement`，JSX 只是一个JS 的语法糖，所以需要引入 React 包，否则会报错。
+
+**第2行：** `import ReactDOM from 'react-dom';`  
+react-dom 是一个把React 代码渲染到网页端的包。如果在移动端渲染，就需要使用 React Native 的相关包。  
+目前（截至2017年12月3日），React 与 ReactDOM 都更新到了 16.0.0，所以在 package.json 中可以看到这两个版本都是最新的版本。
+
+**第4-6行：**
+
+```jsx
+const title = (
+  <h1>Hello React (method 3)</h1>
+);
+
+```
+
+这就是一段 jsx 代码，实际是 `React.createElement` 创建一个 React DOM 对象，完全等同于下面这行代码。
+
+```javascript
+const title = React.createElement("h1", {className: "main"}, "Hello React (method 3)");
+
+```
+
+JSX 更加直观，符合我们对 html 结构的认知，如果都用 React.createElement 去创建 React DOM，会非常的繁琐，且容易出错。
+
+**第8行：**
+
+```jsx
+ReactDOM.render(title, document.getElementById('root'));
+
+```
+把上面创造出来的 React DOM 对象，渲染到网页 id 为 root 的元素中。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTA4MDk3N119
+eyJoaXN0b3J5IjpbNjI0NTA1MzksMTAxMTA4MDk3N119
 -->
