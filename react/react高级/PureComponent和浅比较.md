@@ -4,7 +4,9 @@
 > =>React.PureComponent是基于浅比较，所以只要属性值是引用类型，但是修改后的值变了，但是地址不变，也不会重新渲染
 
 引用类型：数组，对象，函数
-基本类型： 布尔，null，undefine，symbol，bigIn
+基本类型： 布尔，null，undefined，symbol，bigInt，string，number
+
+## 2: Pure
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM5Mzk3MDZdfQ==
+eyJoaXN0b3J5IjpbMTc4NzI3NDU4OF19
 -->
