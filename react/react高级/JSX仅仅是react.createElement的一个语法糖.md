@@ -28,6 +28,11 @@ React.createElement(
   {className: 'sidebar'}
 )
 ```
+
+
+##  document.createElement, React.createElement 与 JSX 三种方法创建 DOM 的比较
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Mzc3NzE4Nl19
+eyJoaXN0b3J5IjpbMTY3MzM2NDY2OV19
 -->
