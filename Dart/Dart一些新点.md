@@ -18,11 +18,6 @@ Dart的 == 相当于js 的 ===
 ```
 
 ```dart
-final 和 const
-final 相当于 js 里面的 const
-```
-
-```dart
  var c = {
 	"E":2,
 	"dd": "se"
@@ -96,8 +91,8 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODEyNTQzOSwtMTI3NTc2MTYxOSwtMT
-g1NjgyMDIyMCwxMTc3OTQ3OTUzLC03MDY1MTE5MDMsOTc5Mzk5
-MjM5LDE5NTU1MTg1ODUsLTUxODU5NTA4MywtMTcwMTk3OTYwNS
-wzMjg1MzcwMjIsMTYyNjQzNjM2Nl19
+eyJoaXN0b3J5IjpbLTY4Njk0OTg5MiwxMTE4MTI1NDM5LC0xMj
+c1NzYxNjE5LC0xODU2ODIwMjIwLDExNzc5NDc5NTMsLTcwNjUx
+MTkwMyw5NzkzOTkyMzksMTk1NTUxODU4NSwtNTE4NTk1MDgzLC
+0xNzAxOTc5NjA1LDMyODUzNzAyMiwxNjI2NDM2MzY2XX0=
 -->
