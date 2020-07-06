@@ -23,7 +23,10 @@ const WINDOW_HEIGHT = Dimensions.get('window').height;
 
 TabBar
 tabBar是在App荧幕底部出现的栏，提供了在不同的版面之间进行快速切换的途径，tabbar的背景颜色是半透明，可以有调色，tabBar在所有荧幕尺寸都保持一样的高度，并且在键盘出现时会隐藏起来。
+
+### ios手机的一些其他机型尺寸大小等等
+[https://www.jianshu.com/p/f9f2425d1960](https://www.jianshu.com/p/f9f2425d1960)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODA4MDIyMCwxODMwNjg5ODQ2LDE3MD
-gxNjcyNTgsLTEwMjE1MzI0MThdfQ==
+eyJoaXN0b3J5IjpbLTc5MzA4ODkxOCwtOTk4MDgwMjIwLDE4Mz
+A2ODk4NDYsMTcwODE2NzI1OCwtMTAyMTUzMjQxOF19
 -->
