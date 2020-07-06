@@ -44,8 +44,26 @@ ReactDOM.render(
 );
 ```
 
-
+```js
+import React, { Component } from "react";
++ import { observer, inject } from "mobx-react";
++ @inject("homeStore")
++ @observer
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+    );
+  }
+}
+export default Home;
+```
+#####  observer 把组件变成响应式组件，数据更新时可以触发渲染.
+#####  inject把数据注册
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk4MDY5ODddfQ==
+eyJoaXN0b3J5IjpbMjEyNTUzOTgzMiwtMTM2OTgwNjk4N119
 -->
