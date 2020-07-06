@@ -1,6 +1,6 @@
 
 HomeStore 类
-```
+```js
 import { observable} from "mobx";
 class HomeStore {
   @observable homeNum = 0;
@@ -9,7 +9,7 @@ export default HomeStore;
 ```
 
 oneStore 类
-```
+```js
 import { observable} from "mobx";
 class OneStore {
   @observable oneNum = 3333;
@@ -18,7 +18,7 @@ export default OneStore;
 ```
 
 将两个类合并到Store类里
-```
+```js
 import HomeStore from "./homeStore";
 import OneStore from "./oneStore";
 let oneStore = new OneStore();
@@ -31,7 +31,8 @@ const stores = {
 export default stores;
 ```
 
-```d
+App.js
+```js
 import React from "react";
 import { Provider } from "mobx-react";
 import stores from "./store";
@@ -41,10 +42,10 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-
-
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTEyMTE3XX0=
+eyJoaXN0b3J5IjpbLTEzNjk4MDY5ODddfQ==
 -->
