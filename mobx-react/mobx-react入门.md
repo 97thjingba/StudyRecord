@@ -62,8 +62,8 @@ class Home extends Component {
 export default Home;
 ```
 #####  observer 把组件变成响应式组件，数据更新时可以触发渲染.
-#####  inject把数据注册
+#####  inject把数据注册到组件。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTUzOTgzMiwtMTM2OTgwNjk4N119
+eyJoaXN0b3J5IjpbMTk1ODU0MzUxMiwtMTM2OTgwNjk4N119
 -->
