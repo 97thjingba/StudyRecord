@@ -20,7 +20,7 @@ try {
 	Response response = await  Dio().post(url,
 	data: data,
 	options: Options(headers: {'authorization': 'Bearer $accessToken'}));
-	return response;
+	return response.toString();
 } catch (error) {
 print(error);
 }
@@ -34,7 +34,7 @@ try {
 	Response response = await  Dio().post(url,
 	data: data,
 	options: Options(headers: {'authorization': 'Bearer $accessToken'}));
-	return response;
+	return response.toString();
 } catch (error) {
 print(error);
 }
@@ -62,5 +62,5 @@ print(error);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MTk3NTY2XX0=
+eyJoaXN0b3J5IjpbLTEyMzE1NzA3Niw1MDYxOTc1NjZdfQ==
 -->
