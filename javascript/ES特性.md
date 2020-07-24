@@ -77,6 +77,23 @@ const arr = [ ['0', 'a'], ['1', 'b'], ['2', 'c'] ];
 const obj = Object.fromEntries(arr);
 console.log(obj); // { 0: "a", 1: "b", 2: "c" }
 ```
+
+### 9.修改 `catch` 绑定
+
+在 ES10 之前，我们必须通过语法为 catch 子句绑定异常变量，无论是否有必要。很多时候 catch 块是多余的。 ES10 提案使我们能够简单的把变量省略掉。
+不算大的改动。
+之前是
+
+```js
+try {} catch(e) {}
+复制代码
+```
+
+现在是
+
+```js
+try {} catch {}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE3ODc4ODFdfQ==
+eyJoaXN0b3J5IjpbMjM5Njg5MjExXX0=
 -->
