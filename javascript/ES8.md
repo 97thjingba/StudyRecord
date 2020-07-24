@@ -9,11 +9,11 @@ async function process(array) {
   }
 }
 复制代码
+```
 
-```js
 这段代码不会正常运行，下面这段同样也不会：
 
-```
+```js
 async function process(array) {
   array.forEach(async i => {
     await doSomething(i);
@@ -26,7 +26,7 @@ async function process(array) {
 
 ES2018引入异步迭代器（asynchronous iterators），这就像常规迭代器，除了`next()`方法返回一个Promise。因此`await`可以和`for...of`循环一起使用，以串行的方式运行异步操作。例如：
 
-```
+```js
 async function process(array) {
   for await (let i of array) {
     doSomething(i);
@@ -34,5 +34,5 @@ async function process(array) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTYyMjE1MF19
+eyJoaXN0b3J5IjpbMjA5MTI5MTI0M119
 -->
