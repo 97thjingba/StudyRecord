@@ -1,0 +1,16 @@
+**every()**  
+方法测试一个数组内的所有元素是否都能通过某个指定函数的测试。它返回一个布尔值。
+
+**注意**：若收到一个空数组，此方法在一切情况下都会返回  `true`
+
+```js
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+// expected output: true
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MzUzODYzNzldfQ==
+-->
