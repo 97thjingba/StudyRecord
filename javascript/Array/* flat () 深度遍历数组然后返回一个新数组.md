@@ -16,10 +16,11 @@ arr3.flat(2);
 // [1, 2, 3, 4, 5, 6]
 
 //使用 Infinity，可展开任意深度的嵌套数组
-`var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
+var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 arr4.flat(Infinity);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTg5NTAxNV19
+eyJoaXN0b3J5IjpbLTE0NTA0MDY0NjddfQ==
 -->
