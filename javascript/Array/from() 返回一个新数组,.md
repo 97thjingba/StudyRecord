@@ -68,8 +68,8 @@ Array.from({length: 5}, (v, i) => i);
 ###  数组去重合并
 
 ```js
-function combine(){ 
-    let arr = [].concat.apply([], arguments);  //没有去重复的新数组 
+function combine(m,n){ 
+    let arr = m.concat.apply(n, arguments);  //没有去重复的新数组 
     return Array.from(new Set(arr));
 } 
 
@@ -77,5 +77,5 @@ var m = [1, 2, 2], n = [2,3,3];
 console.log(combine(m,n)); 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MTY2NTc3LC03MzE0MDExOTRdfQ==
+eyJoaXN0b3J5IjpbOTM3NDg2NTMzLC03MzE0MDExOTRdfQ==
 -->
