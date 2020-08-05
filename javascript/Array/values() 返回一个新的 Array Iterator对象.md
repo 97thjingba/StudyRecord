@@ -1,4 +1,4 @@
-
+**`values()`**  方法返回一个新的  **`Array Iterator`**  对象，该对象包含数组每个索引的值
 
 ```js
 const array1 = ['a', 'b', 'c'];
@@ -13,5 +13,5 @@ for (const value of iterator) {
 // expected output: "c"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc2NTQ1NzJdfQ==
+eyJoaXN0b3J5IjpbNTE1NTMyOTkxXX0=
 -->
