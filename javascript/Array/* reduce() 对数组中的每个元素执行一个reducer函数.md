@@ -12,6 +12,12 @@ console.log(array1.reduce(reducer));
 console.log(array1.reduce(reducer, 5));
 // expected output: 15
 ```
+
+**1.  Accumulator (acc) (累计器)
+2.  Current Value (cur) (当前值)
+3.  Current Index (idx) (当前索引)
+4.  Source Array (src) (源数组)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMzODIwMjJdfQ==
+eyJoaXN0b3J5IjpbLTE4ODcxNjM4NTQsLTEyOTMzODIwMjJdfQ
+==
 -->
