@@ -1,5 +1,5 @@
 
-`slice()` 方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的**浅拷贝**（包括 `begin`，不包括`end`）。原始数组不会被改变
+`slice()` 方法返回一个新的数组对象，这一对象是一个由 `begin` 和 `end` 决定的原数组的**浅拷贝**（包括 `begin`，不包括`end`）。**原始数组不会被改变** . splice() 会修改原数组
 
 ```js
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
@@ -15,5 +15,5 @@ console.log(animals.slice(1, 5));
 console.log(animals.slice(1));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDgxMjg5OF19
+eyJoaXN0b3J5IjpbMTI5MTM5MTY1MV19
 -->
