@@ -6,7 +6,15 @@
 
 ### 返回值
 
-新的  [`Array`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Array)  实例
+新的  `Array`实例
+
+```js
+var alpha = ['a', 'b', 'c'];
+var numeric = [1, 2, 3];
+
+alpha.concat(numeric);
+// result in ['a', 'b', 'c', 1, 2, 3]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTE1MTAyOV19
+eyJoaXN0b3J5IjpbLTM3NzA5NjgyOF19
 -->
