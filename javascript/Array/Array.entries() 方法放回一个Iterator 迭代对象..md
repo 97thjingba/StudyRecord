@@ -1,7 +1,5 @@
 
 
-
-
 ```js
 const iterator1 = array1.entries();
 console.log(iterator1);
@@ -16,8 +14,8 @@ console.log(iterator1.next().value);
 //> Array [1, "b"]
 
 console.log(iterator1.next().value);
-// 
+// > Array [2, "c"]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MTM3NDEwXX0=
+eyJoaXN0b3J5IjpbLTQwMTUwNzAwXX0=
 -->
