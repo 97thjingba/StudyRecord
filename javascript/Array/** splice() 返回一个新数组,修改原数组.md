@@ -20,6 +20,7 @@ console.log(months);
 months.splice(1, 3);
 // replaces 1 element at index 4
 console.log(months);
+// ['Jan'];
 ```
 
 ### 参数
@@ -46,6 +47,6 @@ console.log(months);
 
 由被删除的元素组成的一个数组。如果只删除了一个元素，则返回只包含一个元素的数组。如果没有删除元素，则返回空数组。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY2NTkyMjIsLTE3MDI4MzA0NjhdfQ
-==
+eyJoaXN0b3J5IjpbMTU4NjUyNTMzMCwtMTIwNjY1OTIyMiwtMT
+cwMjgzMDQ2OF19
 -->
