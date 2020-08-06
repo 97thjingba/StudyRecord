@@ -2,6 +2,8 @@
 
 same as array.slice();
 
+**左开右闭**
+
 ```js
 const str = 'The quick brown fox jumps over the lazy dog.';
 
@@ -19,5 +21,5 @@ console.log(str.slice(-9, -5));
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDg2ODc4XX0=
+eyJoaXN0b3J5IjpbMTM1NjM4NDkwNiwtODc0ODY4NzhdfQ==
 -->
