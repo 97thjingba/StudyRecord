@@ -1,7 +1,24 @@
+`split()` 方法使用指定的分隔符字符串将一个[`String`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/String)对象分割成子字符串**数组**，以一个指定的分割字串来决定每个拆分的位置
 
+```js
+const str = 'The quick brown fox jumps over the lazy dog.';
 
+const words = str.split(' ');
+console.log(words[3]);
+console.log(words);
+// expected output: "fox"
+// Array ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog."]
 
-> Written with [StackEdit](https://stackedit.io/).
+const chars = str.split('');
+console.log(chars);
+console.log(chars[8]);
+// expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTk0NTY2MjQ4Nyw3MzA5OTgxMTZdfQ==
 -->
