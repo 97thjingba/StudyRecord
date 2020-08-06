@@ -15,8 +15,15 @@ git 批量删除本地分支
 删除当前分支外的所有分支
 **git branch | xargs git branch -d**
 
-删除分支名包含指定字符的f
+删除分支名包含指定字符的分支
+**git branch | grep ‘dev*’ | xargs git branch -d**
+
+⬆️ 上面这个命令会删除分支名包含dev字符的分支
+
+--- 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzMwNzMzMCw4NzA2NTU2ODIsMTUwOD
+eyJoaXN0b3J5IjpbMTgxNjQ0NDIwMiw4NzA2NTU2ODIsMTUwOD
 Y1NjQzOF19
 -->
