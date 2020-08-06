@@ -8,6 +8,15 @@
 **git blame + 文件名**
 
 ---
+git 批量删除本地分支
+**git branch -D branchName**
+
+
+删除当前分支外的所有分支
+**git branch | xargs git branch -d**
+
+删除分支名包含指定字符的f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNjU1NjgyLDE1MDg2NTY0MzhdfQ==
+eyJoaXN0b3J5IjpbMTE5MzMwNzMzMCw4NzA2NTU2ODIsMTUwOD
+Y1NjQzOF19
 -->
