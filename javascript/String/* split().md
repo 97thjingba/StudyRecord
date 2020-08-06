@@ -13,12 +13,14 @@ const chars = str.split('');
 console.log(chars);
 console.log(chars[8]);
 // expected output: "k"
+// ["T", "h", "e", " ", "q", "u", "i", "c", "k", " ", "b", "r", "o", "w", "n", " ", "f", "o", "x", " ", "j", "u", "m", "p", "s", " ", "o", "v", "e", "r", " ", "t", "h", "e", " ", "l", "a", "z", "y", " ", "d", "o", "g", "."] > "k"
 
 const strCopy = str.split();
 console.log(strCopy);
 // expected output: Array ["The quick brown fox jumps over the lazy dog."]
+// ["The quick brown fox jumps over the lazy dog."]
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTY2MjQ4Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzA1Mjc1OTgwLDczMDk5ODExNl19
 -->
