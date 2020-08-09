@@ -11,7 +11,7 @@ var obj = { 0: 'a', 1: 'b', 2: 'c' };
 console.log(Object.keys(obj)); // console: ['0', '1', '2']
 
 // array like object with random key ordering
-var anObj = { 100: 'a', 2: 'b', 7: 'c' };
+var anObj = { 100: 'a, 2: 'b', 7: 'c' };
 console.log(Object.keys(anObj)); // console: ['2', '7', '100']
 
 // getFoo is a property which isn't enumerable
@@ -24,5 +24,5 @@ myObj.foo = 1;
 console.log(Object.keys(myObj)); // console: ['foo']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTcyNTY1MV19
+eyJoaXN0b3J5IjpbNjU5MDc2ODg0LC0xMjk3MjU2NTFdfQ==
 -->
