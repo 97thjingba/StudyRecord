@@ -13,6 +13,9 @@ console.log(returnedTarget);
 // expected output: Object { a: 1, b: 4, c: 5 }
 
 ```
+
+--- 
+如果目标对象中的属性具有相同的键，**则属性将被源对象中的属性覆盖**。后面的源对象的属性将类似地覆盖前面的源对象的属性
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NjgxNzM4XX0=
+eyJoaXN0b3J5IjpbMTQxMzAwMzc3MV19
 -->
