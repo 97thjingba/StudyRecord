@@ -18,7 +18,11 @@ TouchableOpacity，TouchableWithoutFeedback，TouchableHighlight
 除了第一个不需要子组件以外。另外的两个都需要一个子组件放在里面
 
 ---
-
+3: 
+img.png   
+img@2x.png
+img@3x.png
+如果图片的分辨率不符合倍数关系的话，react-native 会报错
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODk1OTI1OF19
+eyJoaXN0b3J5IjpbLTU4ODA1NTM4MF19
 -->
