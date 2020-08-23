@@ -38,6 +38,7 @@ Dart的 == 相当于js 的 ===
 
 ```dart
 b??=23 表示如果b为空的话，把23赋值给b
+就像 react的 b || 23
 ```
 
 ```dart
@@ -91,8 +92,9 @@ p1..name="李四"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Njk0OTg5MiwxMTE4MTI1NDM5LC0xMj
-c1NzYxNjE5LC0xODU2ODIwMjIwLDExNzc5NDc5NTMsLTcwNjUx
-MTkwMyw5NzkzOTkyMzksMTk1NTUxODU4NSwtNTE4NTk1MDgzLC
-0xNzAxOTc5NjA1LDMyODUzNzAyMiwxNjI2NDM2MzY2XX0=
+eyJoaXN0b3J5IjpbLTIxMTM0MDQ5NjQsLTY4Njk0OTg5MiwxMT
+E4MTI1NDM5LC0xMjc1NzYxNjE5LC0xODU2ODIwMjIwLDExNzc5
+NDc5NTMsLTcwNjUxMTkwMyw5NzkzOTkyMzksMTk1NTUxODU4NS
+wtNTE4NTk1MDgzLC0xNzAxOTc5NjA1LDMyODUzNzAyMiwxNjI2
+NDM2MzY2XX0=
 -->
