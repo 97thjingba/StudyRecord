@@ -13,9 +13,26 @@
 
 `Promise.allSettled` 跟 `Promise.all` 类似 都是进行并发请求，但是，我们在上面的两个例子中，显然是已经看到了他们的一些区别，在使用 `Promise.all`进行并发请求的时候，只要有一个请求出现问题（异常），所有的请求正常的也都不能拿到数据，但是在我们的业务的开发中，我们需要保障我们业务的最大的可访问性，就是在我们执行并发任务中，不管我这个并发任务中的一任何个任务是正常还是异常，我们都需要拿到返回的对应的状态，在ES11中 `Promise.allSettled` 就为我们解决了这个问题，它和 `Promise.all` 类似,参数接受一个Promise的数组,返回一个新的Promise,也就是说当Promise全部处理完成后,我们可以拿到每个Promise的状态, 而不管是否处理成功。我们可以在 `then`里面通过 `filter`来过滤出想要的业务逻辑结果，这样就解决了`Promise.all` 的缺陷。
 
- ```
-
-``
+ ```js
+let a= new Promise((resolve,reject)=>{  
+//异步操作...  
+resolve({ code: 200,msg:"请求成功"})  
+})  
+let b= new Promise((resolve,reject)=>{  
+//异步操作...  
+resolve({ code: 200,msg:"请求成功"})  
+})  
+let c= new Promise((resolve,reject)=>{  
+//异步操作...  
+reject({ code: 500,msg:"服务器出现异常"})  
+})  
+//使用进行并发请求  
+Promise.allSettled([a,b,c]).then((data=>{  
+console.log(data,"data")  
+}))  
+  
+// 返回的数据中 ，status: "fulfilled" 表示请求成功，status: "rejected" 表示请求失败
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MzI2NjRdfQ==
+eyJoaXN0b3J5IjpbMjI2Njg2OTI4XX0=
 -->
