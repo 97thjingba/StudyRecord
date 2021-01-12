@@ -22,8 +22,11 @@ git 批量删除本地分支
 
 --- 
 
+删除所有已经不在远程仓库维护的分支
+```git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjQ0NDIwMiw4NzA2NTU2ODIsMTUwOD
-Y1NjQzOF19
+eyJoaXN0b3J5IjpbLTI1ODA5NjAsMTgxNjQ0NDIwMiw4NzA2NT
+U2ODIsMTUwODY1NjQzOF19
 -->
