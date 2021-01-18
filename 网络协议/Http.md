@@ -1,3 +1,7 @@
+HTTP 协议
+HTTP：超文本传输协议，互联网上应用最广的一种协议
+HTTP设计目的：发布和接收HTML页面的方法
+
 ### HTTP 协议主要特点
 
 -   简单快速：当客户端向服务器端发送请求时，只是简单的填写请求路径和请求方法即可，然后就可以通过浏览器或其他方式将该请求发送就行了
@@ -181,6 +185,6 @@ HTTP 常用的请求方法：
 - 服务器推送（服务器可以不经过允许，主动向客户端发送资源）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODk0NjMzNSwtMTkwMjAyOTQ0NiwxMT
-Q4NTkyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTIwMzY5MjA2NCwtMzI4OTQ2MzM1LC0xOT
+AyMDI5NDQ2LDExNDg1OTIwNDZdfQ==
 -->
