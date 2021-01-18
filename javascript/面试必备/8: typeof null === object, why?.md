@@ -1,6 +1,5 @@
 ```js
 typeof null // "object"
-复制代码
 ```
 
 `JavaScript` 中的值是由一个表示类型的标签和实际数据值表示的。第一版的 `JavaScript` 是用 32 位比特来存储值的，且是通过值的低 1 位或 3 位来识别类型的，对象的类型标签是 000。如下
@@ -20,5 +19,5 @@ typeof null // "object"
 
 这个算是 `JavaScript` 设计的一个错误，但是也没法修改，毕竟修改的话，会影响目前现有的代码
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTE3MDI3MF19
+eyJoaXN0b3J5IjpbMjAwNDU4MzQ5N119
 -->
