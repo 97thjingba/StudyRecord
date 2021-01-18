@@ -96,7 +96,11 @@ try {} catch {}
 ```
 
 ### 空值合并操作符
-
+a ？？b 
+如果 a 为undifined 或者null 的时候 返回b值
+a || b 
+如果 a 满足 false ，0 ，undefined， null ，'' ，时.返回b值
+https://zh.javascript.info/nullish-coalescing-operator
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjExMTU1MV19
+eyJoaXN0b3J5IjpbMjAxMjQxMjgyXX0=
 -->
