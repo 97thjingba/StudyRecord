@@ -70,7 +70,7 @@ foo.constructor === Foo // true，这是为什么
 原因如下：
 
 -   Foo.prototype本身还是实例foo的原型。
--   由于原型链机制，当在foo中查找属性constructor时，如果没有找到，则往原型上找。而Foo.prototype刚好有属性constructor。
+-   **由于原型链机制，当在foo中查找属性constructor时，如果没有找到，则往原型上找。而Foo.prototype刚好有属性constructor**。
 -   foo.constructor的值就是Foo.prototype.constructor的值，也就是Foo。
 
 ## constructor属性是不可靠的
@@ -90,5 +90,5 @@ foo.constructor === Object  // true，可以看出不是Foo了
 
 为了将实例的构造器的原型对象暴露出来, 比如你写了一个插件,别人得到的都是你实例化后的对象, 如果别人想扩展下对象,就可以用 instance.constructor.prototype 去修改或扩展原型对象
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjM0OTY2Nl19
+eyJoaXN0b3J5IjpbLTEyOTM3NTU2ODIsLTg1NjM0OTY2Nl19
 -->
