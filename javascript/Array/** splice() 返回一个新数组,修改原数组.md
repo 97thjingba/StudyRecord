@@ -13,14 +13,15 @@ months.splice(4, 1, 'May');
 console.log(months);
 // expected output: Array ["Jan", "Feb", "March", "April", "May"]
 
-months.splice(4, 1, 'May');
-// replaces 1 element at index 4
+months.splice(1,3)
 console.log(months);
+// Array ["Jan", "May"]
 
-months.splice(1, 3);
-// replaces 1 element at index 4
+months.splice(0,1) //相当于删除原有数组的第一项
 console.log(months);
-// ['Jan'];
+//  Array ["May"]
+
+
 ```
 
 ### 参数
@@ -47,6 +48,6 @@ console.log(months);
 
 由被删除的元素组成的一个数组。如果只删除了一个元素，则返回只包含一个元素的数组。如果没有删除元素，则返回空数组。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjUyNTMzMCwtMTIwNjY1OTIyMiwtMT
-cwMjgzMDQ2OF19
+eyJoaXN0b3J5IjpbMTAyNjMwODMwNiwxNTg2NTI1MzMwLC0xMj
+A2NjU5MjIyLC0xNzAyODMwNDY4XX0=
 -->
