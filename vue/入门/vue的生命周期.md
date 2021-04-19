@@ -6,7 +6,9 @@ beforeUpdate： 数据更新时调用.发生在虚拟DOM打补丁之前
 UPDATE: 数据更改导致的虚拟DOM重新渲染和打补丁. 在这以后会调用该钩子
 beforeDestory：实例销毁之前调用. 此时实例还能可用
 destroyed：Vue 实例销毁后调用
+
+参考：https://segmentfault.com/a/1190000011381906
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA0MjgwMzMsNTAxMjM0MzA4LC01ND
-U0NDEyMzgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTk5Mjc2OTI1MCw1MDEyMzQzMDgsLTU0NT
+Q0MTIzOCwtMjA4ODc0NjYxMl19
 -->
