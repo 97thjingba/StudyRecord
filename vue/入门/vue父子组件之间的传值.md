@@ -346,6 +346,9 @@ props 可以进行动态以及静态的传值. 但是一般都会用动态传值
 
 - vue里面的规则有一点比较重要的是：
 子组件 props 属性声明时，使用小驼峰或者中划线写法都可以；而子组件的模板使用从父组件传来的变量时，需要使用对应的**小驼峰写法**。别担心，Vue 能够正确识别出小驼峰和下划线命名法混用的变量
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MjkzNzgwLC0xNDcyOTM3MTAzXX0=
+eyJoaXN0b3J5IjpbMTU2OTIwMDIyMiwtMTQ3MjkzNzEwM119
 -->
