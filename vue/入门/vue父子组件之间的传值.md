@@ -341,7 +341,8 @@ let childNode = {
 ```
 简单的来说就是：
 props 可以进行动态以及静态的传值. 但是一般都会用动态传值来进行传值
-而vue在父子之间传值是进行单向数据流进行传值.所以父组件chuan
+而vue在父子之间传值是进行单向数据流进行传值.所以父组件传进来的值会影响子组件的值.
+也会影响子组件更新视图. 但是 当子组件给 父组件传值时 不能采用props的方法. 这样会在console控制台报错. 因为vue这种传递值的方法是单向数据流
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NzUxNDYyXX0=
+eyJoaXN0b3J5IjpbNDg5NzI1OTMwXX0=
 -->
