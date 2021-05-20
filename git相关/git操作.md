@@ -20,13 +20,15 @@ git 批量删除本地分支
 
 ⬆️ 上面这个命令会删除分支名包含dev字符的分支
 
---- 
+ git显示存在冲突的文件的路径
+**git  diff --name-only --diff-filter=U**
+
 
 删除所有已经不在远程仓库维护的分支
 ```git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODA5NjAsMTgxNjQ0NDIwMiw4NzA2NT
-U2ODIsMTUwODY1NjQzOF19
+eyJoaXN0b3J5IjpbMTcwNzI3OTQyOSwtMjU4MDk2MCwxODE2ND
+Q0MjAyLDg3MDY1NTY4MiwxNTA4NjU2NDM4XX0=
 -->
