@@ -69,7 +69,7 @@ o 可以搜索历史记录，搜索书签，还可以直接打开一个新的网
 
   
 
-![v](https://upload-images.jianshu.io/upload_images/3026741-b5c9ea8537d8001e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![](https://upload-images.jianshu.io/upload_images/3026741-b5c9ea8537d8001e.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
   
 
@@ -96,7 +96,7 @@ map  d  scrollRight
   
   
 
-![f](https://upload-images.jianshu.io/upload_images/3026741-d919438aaf737593.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![](https://upload-images.jianshu.io/upload_images/3026741-d919438aaf737593.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
   
 
@@ -114,5 +114,5 @@ map  d  scrollRight
 
 -  [Vimium Github地址](https://github.com/philc/vimium)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ2OTU3MTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjcxNDYxMjddfQ==
 -->
