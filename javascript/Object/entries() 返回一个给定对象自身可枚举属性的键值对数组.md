@@ -1,4 +1,4 @@
-x`Object.entries()`方法返回一个给定对象自身可枚举属性的键值对数组，其排列与使用 [`for...in`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in) 循环遍历该对象时返回的顺序一致
+`Object.entries()`方法返回一个给定对象自身可枚举属性的键值对数组，其排列与使用 [`for...in`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in) 循环遍历该对象时返回的顺序一致
 
 
 ```js
@@ -17,5 +17,5 @@ for (const [key, value] of Object.entries(object1)) {
 // order is not guaranteed
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDI5OTczNiwtNzA0ODcwODg0XX0=
+eyJoaXN0b3J5IjpbLTcwNDg3MDg4NCwtNzA0ODcwODg0XX0=
 -->
