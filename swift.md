@@ -6,7 +6,9 @@
 ---
 
 3:
+
+http://gitlab.sydip.com/repo/dip/frontend/dip-management-refactor.git
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODk5NDI5MywxMzc4MDk0MTQwLDE0OD
-g5OTQyOTMsMjA4OTk5MDE2XX0=
+eyJoaXN0b3J5IjpbNzEzNDI4ODQxLDE0ODg5OTQyOTMsMTM3OD
+A5NDE0MCwxNDg4OTk0MjkzLDIwODk5OTAxNl19
 -->
