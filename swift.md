@@ -7,8 +7,9 @@
 
 3:
 
-http://gitlab.sydip.com/repo/dip/frontend/dip-management-refactor.git
+http://gitlab.sydip.com/repo/dip/frontend/dip-management-refactor.gittttt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzNDI4ODQxLDE0ODg5OTQyOTMsMTM3OD
-A5NDE0MCwxNDg4OTk0MjkzLDIwODk5OTAxNl19
+eyJoaXN0b3J5IjpbOTA4NjQzMDQ5LDcxMzQyODg0MSwxNDg4OT
+k0MjkzLDEzNzgwOTQxNDAsMTQ4ODk5NDI5MywyMDg5OTkwMTZd
+fQ==
 -->
