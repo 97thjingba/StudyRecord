@@ -14,19 +14,18 @@ const usePrevProps = (value) => {
 2. 使用Es6的set 对象来进行判断
 ```js
 import React, { useState, useCallback } from 'react';
- 
+
 const set = new Set();
  
 export default function Callback() {
     const [count, setCount] = useState(1);
     const [val, setVal] = useState('');
- 
     const callback = useCallback(() => {
         console.log(count);
     }, [count]);
     set.add(callback);
  
- 
+  // 当点击按钮的时候,触发re-render.看set.size是否会发生变化。就可以判断callBack函数的引用地址是否改变.就可以知道useCallBack是否起了作用
     return <div>
         <h4>{count}</h4>
         <h4>{set.size}</h4>
@@ -38,5 +37,5 @@ export default function Callback() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIxMzc2MjFdfQ==
+eyJoaXN0b3J5IjpbLTMwODkyNjUzMF19
 -->
