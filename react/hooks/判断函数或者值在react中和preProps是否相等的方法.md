@@ -1,4 +1,6 @@
-
+```
+const usePrevProps = () => { }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjEyMjc1NjA1Nl19
 -->
