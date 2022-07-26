@@ -1,9 +1,9 @@
 
 |  |  useCallback|useMemo  |
 |--|--|--|
-|  作用本质|  |缓存计算数据的值 |
+| 返回值|返回缓存的函数  |返回缓存的变量 |
 | | | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTc5NTA4LDExODM3OTE0ODNdfQ==
+eyJoaXN0b3J5IjpbLTUxNDUyODQ3OSwxMTgzNzkxNDgzXX0=
 -->
