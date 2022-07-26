@@ -13,14 +13,30 @@ const usePrevProps = (value) => {
 
 2. 使用Es6的set 对象来进行判断
 ```js
-const setObject = new Set()
-const callBack = useCallBack(()=>{
-	console.log('a')
-},[]) 
-setObject.add(callBack)
-// 判断setObject的sizesh
-return <div> {setObject.size}</div>
+import React, { useState, useCallback } from 'react';
+ 
+const set = new Set();
+ 
+export default function Callback() {
+    const [count, setCount] = useState(1);
+    const [val, setVal] = useState('');
+ 
+    const callback = useCallback(() => {
+        console.log(count);
+    }, [count]);
+    set.add(callback);
+ 
+ 
+    return <div>
+        <h4>{count}</h4>
+        <h4>{set.size}</h4>
+        <div>
+            <button onClick={() => setCount(count + 1)}>+</button>
+            <input value={val} onChange={event => setVal(event.target.value)}/>
+        </div>
+    </div>;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM2MTA3NTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTIxMzc2MjFdfQ==
 -->
