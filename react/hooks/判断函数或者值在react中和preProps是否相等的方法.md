@@ -13,9 +13,14 @@ const usePrevProps = (value) => {
 
 2. 使用Es6的set 对象来进行判断
 ```js
-const callBack = useCallBack(()=>) 
-
+const setObject = new Set()
+const callBack = useCallBack(()=>{
+	console.log('a')
+},[]) 
+setObject.add(callBack)
+// 判断setObject的sizesh
+return <div> {setObject.size}</div>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjYxNjU2Ml19
+eyJoaXN0b3J5IjpbLTEzNTM2MTA3NTZdfQ==
 -->
