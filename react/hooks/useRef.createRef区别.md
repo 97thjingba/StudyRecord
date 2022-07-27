@@ -1,7 +1,9 @@
 
+|  | useRef |createRef |
+|--|--|--|
+| 相同点 | 当作dom句柄控制dom事件 |当作dom句柄控制dom事件|
+|返回值|返回同一个||
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI3ODkzNjgxNF19
 -->
