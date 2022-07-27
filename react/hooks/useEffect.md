@@ -6,9 +6,9 @@ useEffect 注意点：
 | useEffect  | useLayoutEffect |
 |--|--|
 | 页面渲染后执行 |同步执行，会阻塞页面渲染  |
-|不会阻塞渲染|会阻塞渲染，会影响到渲染的操作尽量放在||
+|不会阻塞渲染|会阻塞渲染，会影响到渲染的操作尽量使用，避免出现闪烁问题||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDI5NTk0OCwtNzg5ODc1ODQ3XX0=
+eyJoaXN0b3J5IjpbOTkxMTgzNDM4LC03ODk4NzU4NDddfQ==
 -->
