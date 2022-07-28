@@ -7,8 +7,12 @@
 |空deps[]|意味着方法没有依赖值，将不会更新|没有依赖值，不会进行更新|
 |注意点|1：useCallBack不要每个函数都包一下，否则就会变成反向优化，useCallBack本身就是需要一定性能2:useCallBack并不能阻止函数重新创建,它只能通过依赖决定返回新的函数还是旧的函数,从而在依赖不变的情况下保证函数地址不变3:**useCallBack需要配合React.memo使用**4:https://juejin.cn/post/7107943235099557896|memo用来优化**函数组件**的重复渲染行为，针对的是一个**组件**useMemo返回一个memoized的**值** |
  
+|  | useCallBack |useMemoizedFn |
+|--|--|--|
+|区别|  | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEyNTM0NDIsLTIyODUxMjQxMiwtNj
-g4NzcwMDAxLC01MTQ1Mjg0NzksMTE4Mzc5MTQ4M119
+eyJoaXN0b3J5IjpbMTE5NzE5Mzc4MCwtMTc1MTI1MzQ0MiwtMj
+I4NTEyNDEyLC02ODg3NzAwMDEsLTUxNDUyODQ3OSwxMTgzNzkx
+NDgzXX0=
 -->
