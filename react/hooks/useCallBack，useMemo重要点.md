@@ -9,10 +9,10 @@
  
 |  | useCallBack |useMemoizedFn |
 |--|--|--|
-|区别|  | |
+|区别|依赖变化会导致返回的函数的地址变化 | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzE5Mzc4MCwtMTc1MTI1MzQ0MiwtMj
-I4NTEyNDEyLC02ODg3NzAwMDEsLTUxNDUyODQ3OSwxMTgzNzkx
-NDgzXX0=
+eyJoaXN0b3J5IjpbMjQ4NDU2MzQwLC0xNzUxMjUzNDQyLC0yMj
+g1MTI0MTIsLTY4ODc3MDAwMSwtNTE0NTI4NDc5LDExODM3OTE0
+ODNdfQ==
 -->
