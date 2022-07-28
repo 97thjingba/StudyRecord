@@ -16,8 +16,9 @@ const prevCountRef = React.useRef();
  	{ prevCountRef.current = count; });
 ```
 
+参考：https://juejin.cn/post/6972000815477162020
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAwNjM2Miw0MDg5MDE1NjBdfQ==
+eyJoaXN0b3J5IjpbMTMwMTE2NTY0MSw0MDg5MDE1NjBdfQ==
 -->
